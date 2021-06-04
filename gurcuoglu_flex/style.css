@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+body{ 
+    width: 70%;
+    height: auto;
+    margin: 0 15%;
+    position: relative;
+}
+.header{
+    min-width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    height: auto;
+    display: flex;
+}
+.navbar{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+}
+.navbar-list{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.navbar-list li{
+    padding-top: 110px;
+    margin: 0 10px 10px 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.navbar-list li:hover{
+    background-color: lightblue;
+    color: white;
+}
+
+.banner img{
+    width: 100%;
+}
+.home-main{
+    clear: left;
+}
+.home-main-buttons{
+    margin: 2vh 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.home-main-buttons button{
+    padding: 3%;
+    width: 30%;
+    height: auto;
+}   
+
+.home-bottom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.home-haberler{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+.home-haberler aside{
+    margin: 5px 0;
+    display: flex;
+}
+.home-haberler p{
+    margin: 0 5px;
+}
+
+.home-article{
+    width: 60%;
+    height: auto;
+}
+
+footer{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+footer p{
+    color: white;
+}
