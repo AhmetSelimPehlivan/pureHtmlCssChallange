@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: gray;
+}
+body{ 
+    width: 70%;
+    height: auto;
+    margin: 5% 15%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    min-width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    height: auto;
+    display: flex;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.navbar-list-first{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1px;
+    padding: 0px 1.5vw;
+    background-color: #4D4D4D;
+}
+.navbar-list-first li{
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+}
+.navbar-list-first li:first-child{
+    padding-right: 2vw;
+}
+
+.navbar-list-second{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-list-second li{
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: #0074C8;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.home-image{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border: 1px solid gray;
+}
+.home-image img{
+    width: 100%;
+    height: auto;
+}
+
+.home-main{
+    display: flex;
+    justify-content: space-between;
+}
+.home-main-article{
+    width: 70%;
+    height: auto;
+    padding: 3% 3% 3% 0px;
+    font-size: 13px;
+}
+
+.home-main-doviz{
+    width: 30%;
+    height: 100%;
+    margin: 3% 0px;
+    padding-left: 5%;
+    border-left: 1px solid gray;
+}
+.home-main-header{
+    display: flex;
+    width: 100%;
+    height: auto;
+    color: #0074C8;
+}
+.home-main-header span{
+    margin-left: 2%;
+    font-weight: bold;
+    color: #0074C8;
+}
+.home-main-header::after {
+  content: "";
+  flex: 1;
+  border-top: solid 1px #0074C8;
+  margin: auto;
+}
+
+.home-main-doviz-info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.doviz{
+    width: 50%;
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer{
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: flex-start;
+}
+footer p{
+    font-size: 12px;
+    padding-right: 5px;
+}
+footer strong{
+    padding-left: 5px;
+    border-left: 1px solid gray;
+}
