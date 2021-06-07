@@ -4,6 +4,10 @@
     box-sizing: border-box;
     color: gray;
 }
+a{
+    color: inherit;
+    text-decoration: none;
+}
 body{ 
     width: 70%;
     height: auto;
@@ -13,12 +17,16 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.header{
+header{
     min-width: 100%;
     height: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     height: auto;
     display: flex;
+}
+header img{
+    max-width: 25%;
+    height: auto;
 }
 .navbar{
     width: 100%;
@@ -28,28 +36,34 @@ body{
     align-items: flex-end;
 }
 .navbar-list-first{
+    max-width: 100%;
+    height: auto;
     display: flex;
     justify-content: flex-end;
     margin: 1px;
-    padding: 0px 1.5vw;
+    padding: 0px 1em 0px 1.5em;
     background-color: #4D4D4D;
 }
 .navbar-list-first li{
+    max-width: 100%;
+    height: auto;
     padding: 5px;
     color: white;
-    font-size: 12px;
+    font-size: 11px;
 }
 .navbar-list-first li:first-child{
-    padding-right: 2vw;
+    padding-right: 2em;
 }
 
 .navbar-list-second{
+    max-width: 100%;
+    height: auto;
     list-style: none;
     display: flex;
     justify-content: flex-end;
 }
 .navbar-list-second li{
-    width: 100%;
+    max-width: 100%;
     height: auto;
     color: white;
     background-color: #0074C8;
@@ -59,7 +73,7 @@ body{
 }
 
 .home-image{
-    width: 100%;
+    max-width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -79,15 +93,15 @@ body{
 .home-main-article{
     width: 70%;
     height: auto;
-    padding: 3% 3% 3% 0px;
+    padding: 2.5em 2.5em 2.5em 0px;
     font-size: 13px;
 }
 
 .home-main-doviz{
     width: 30%;
     height: 100%;
-    margin: 3% 0px;
-    padding-left: 5%;
+    margin: 3em 0px;
+    padding-left: 3em;
     border-left: 1px solid gray;
 }
 .home-main-header{
@@ -97,15 +111,15 @@ body{
     color: #0074C8;
 }
 .home-main-header span{
-    margin-left: 2%;
+    margin-left: 5px;
     font-weight: bold;
     color: #0074C8;
 }
 .home-main-header::after {
-  content: "";
-  flex: 1;
-  border-top: solid 1px #0074C8;
-  margin: auto;
+    content: "";
+    flex: 1;
+    border-top: solid 1px #0074C8;
+    margin: auto;
 }
 
 .home-main-doviz-info{
@@ -118,7 +132,7 @@ body{
 .doviz{
     width: 50%;
     height: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -135,7 +149,7 @@ footer p{
     font-size: 12px;
     padding-right: 5px;
 }
-footer strong{
+footer b{
     padding-left: 5px;
     border-left: 1px solid gray;
 }
