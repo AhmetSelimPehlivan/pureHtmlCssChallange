@@ -1,58 +1,75 @@
-@media only screen and (max-width: 1176px) {
-    header .logo{
-    width: 35%;
-    height: auto;
-    display: inline;
-    }
-    nav ul{
-    width: 90%;
-    height: auto;
-    display: flex;
-    justify-content: flex-end;
-    }
+@media only screen and (max-width: 1075px) {
+
     nav ul li{
-    width: 100%;
-    height: auto;
-    color: white;
-    font-size: 70%;
-    background-color: #EF855B;
-    display: inline-block;
-    padding: 2% 4%;
+    font-size: 12px;
+    padding: 1.5% 3%;
+    }
+    .news .title{
+    font-size: 13px;
+    margin: 13px 0px;
+    }
+    p{
+    font-size: 75%;
     }
 }
-@media only screen and (max-width: 708px) {
-    header .logo{
-    width: 30%;
-    height: auto;
-    display: inline;
+@media only screen and (max-width: 790px) {
+    header{
+    margin-bottom: 1em;
     }
-    nav ul{
-    width: 90%;
-    height: auto;
-    display: flex;
-    justify-content: flex-end;
+    header .logo{
+    max-width: 30%;
+    margin-right: 10%;
     }
     nav ul li{
+    font-size: 8px;
+    padding: 1.5%;
+    }
+    .banner{
     width: 100%;
     height: auto;
-    color: white;
-    font-size: 55%;
-    background-color: #EF855B;
-    display: inline-block;
-    padding: 2% 3%;
+    }
+
+    .news .title{
+    font-size: 10px;
+    margin: 10px 0px;
+    }
+    .items .item p{
+    font-size: 50%;
+    }
+    .contact *{
+    font-size: 50%;
+    }
+    .copyright p{
+    font-size: 50%;
     }
     footer{
-        background-color: lightgray;
-        margin-top: 2%;
-        padding: 1.5%;
-        display: flex;
-        justify-content: center;
+    margin-top: 5px;
+    padding: 0.5em;
     }
-    footer input{
-        width: 50%;
-        height: auto;
+}
+@media only screen and (max-width: 550px) {
+    header .logo{
+    max-width: 25%;
     }
-    footer *{
-        font-size: 13px;
+    nav ul li{
+    font-size: 6px;
+    padding: 1%;
+    }
+    .news .title{
+    font-size: 7px;
+    margin: 5px 0px;
+    }
+    .items .item p{
+    font-size: 50%;
+    }
+    .contact *{
+    font-size: 40%;
+    }
+    .copyright p{
+    font-size: 40%;
+    }
+    footer{
+    margin-top: 3px;
+    padding: 0.5em;
     }
 }

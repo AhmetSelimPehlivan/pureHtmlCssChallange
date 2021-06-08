@@ -13,10 +13,12 @@ header{
   margin-bottom: 2rem;
 }
 header .logo{
+  max-width: 100%;
   display: inline;
+  margin-right: 10%;
 }
 header .logo img{
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
 }
 nav{
@@ -27,7 +29,7 @@ nav{
   align-items: flex-end;
 }
 nav ul{
-  width: 90%;
+  width: 100%;
   height: auto;
   display: flex;
   justify-content: flex-end;
@@ -37,8 +39,9 @@ nav ul li{
   height: auto;
   color: white;
   background-color: #EF855B;
+  text-align: center;
   display: inline-block;
-  padding: 2% 5%;
+  padding: 1.5% 4%;
 }
 .banner{
   max-width: 100%;
@@ -50,7 +53,7 @@ nav ul li{
 }
 
 .news .title{
-  width: 100%;
+  max-width: 100%;
   height: auto;
   margin: 15px 0px;
   text-align: center;
